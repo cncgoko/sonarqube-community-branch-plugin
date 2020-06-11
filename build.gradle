@@ -101,9 +101,9 @@ jar {
 }
 
 release {
-    git {
-        requireBranch = '(sonarqube-7.9-lts|master|release-\\d+\\.\\d+|\\d+\\.\\d+)'
-    }
+//    git {
+//        requireBranch = '(sonarqube-7.9-lts|master|release-\\d+\\.\\d+|\\d+\\.\\d+)'
+//    }
 }
 
 tasks.jar.configure {
